@@ -2,11 +2,11 @@ const fetch = require("node-fetch");
 const base = "https://aternos.org";
 
 const credentials = {
-  username: "YOUR_ATERNOS_EMAIL",
-  password: "YOUR_ATERNOS_PASSWORD",
+  username: "gamertechgaamerz@gmail.com",
+  password: "GTStealCraft",
 };
 
-const serverId = "YOUR_SERVER_USERNAME";
+const serverId = "GTStealCraft";
 
 async function login() {
   const res = await fetch(`${base}/ajax/account/login`, {
